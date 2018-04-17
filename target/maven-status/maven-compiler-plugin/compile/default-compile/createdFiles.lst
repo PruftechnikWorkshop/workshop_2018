@@ -1,0 +1,6 @@
+com/pruftechnik/workshop/services/SignalService.class
+com/pruftechnik/workshop/repositories/SignalRepository.class
+com/pruftechnik/workshop/controller/SignalController.class
+com/pruftechnik/workshop/PruftechnikWorkshopApplication.class
+com/pruftechnik/workshop/services/impl/SignalServiceImpl.class
+com/pruftechnik/workshop/model/Signal.class

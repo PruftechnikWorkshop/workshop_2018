@@ -1,0 +1,6 @@
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/services/impl/SignalServiceImpl.java
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/services/SignalService.java
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/repositories/SignalRepository.java
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/model/Signal.java
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/PruftechnikWorkshopApplication.java
+/home/pruftechnik/cloud_test/pruftechnik-workshop/src/main/java/com/pruftechnik/workshop/controller/SignalController.java
