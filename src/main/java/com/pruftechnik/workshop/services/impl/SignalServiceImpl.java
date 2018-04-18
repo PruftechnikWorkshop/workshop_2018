@@ -31,5 +31,10 @@ public class SignalServiceImpl implements SignalService {
 		return signalRepository.findAll();
 	}
 	
+	@Override
+	public List<Signal> getFirstOneHundredSignals() {		
+		return signalRepository.findFirst100ByOrderByIdDesc();
+	}
+	
 
 }

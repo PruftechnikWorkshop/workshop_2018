@@ -27,14 +27,9 @@ public class Signal implements Serializable{
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date timeStamp;
 	
-	@Column
-	private Long signalValue;
-	
-	@Column
-	private String description;
-	
-	@Column(name="meas_id")
-	private Long measId; 
+	@Column(precision=4, scale=9)
+	private Float signalValue;
+		
 
 	public Long getId() {
 		return id;
@@ -52,29 +47,11 @@ public class Signal implements Serializable{
 		this.timeStamp = timeStamp;
 	}
 
-	public Long getSignalValue() {
+	public Float getSignalValue() {
 		return signalValue;
 	}
 
-	public void setSignalValue(Long signalValue) {
+	public void setSignalValue(Float signalValue) {
 		this.signalValue = signalValue;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public Long getMeasId() {
-		return measId;
-	}
-
-	public void setMeasId(Long measId) {
-		this.measId = measId;
-	}
-	
-	
+	}			
 }

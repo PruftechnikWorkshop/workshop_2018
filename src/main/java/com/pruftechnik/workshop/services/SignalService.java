@@ -11,4 +11,6 @@ public interface SignalService {
 	public List<Signal> addSignals(List<Signal> signals);
 	
 	public List<Signal> getSignals();
+	
+	public List<Signal> getFirstOneHundredSignals();
 }
