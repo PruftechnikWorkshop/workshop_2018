@@ -9,7 +9,7 @@ import com.pruftechnik.workshop.model.Signal;
 import com.pruftechnik.workshop.repositories.SignalRepository;
 import com.pruftechnik.workshop.services.SignalService;
 
-@Repository
+
 public class SignalServiceImpl implements SignalService {
 	
 	@Autowired
